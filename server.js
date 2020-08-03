@@ -9,6 +9,9 @@ http.createServer(function (req, res) {
     console.log(`VERCEL_URL: ${process.env.VERCEL_URL}`)
     console.log(`VERCEL_REGION: ${process.env.VERCEL_REGION}`)
 
+    console.log(`LOCALLY_DEFINED: ${process.env.LOCALLY_DEFINED}`)
+    console.log(`LOCALLY_DEFINED_BUILD: ${process.env.LOCALLY_DEFINED_BUILD}`)
+
     res.write('Hello World!')
     res.end()
 }).listen(process.env.PORT)
