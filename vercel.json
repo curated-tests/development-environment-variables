@@ -1,0 +1,10 @@
+{
+    "env": {
+        "LOCALLY_DEFINED": "1"
+    },
+    "build": {
+        "env": {
+            "LOCALLY_DEFINED_BUILD": "1"
+        }
+    }
+}
