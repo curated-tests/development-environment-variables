@@ -1,10 +1,12 @@
 {
     "env": {
-        "LOCALLY_DEFINED": "1"
+        "LOCALLY_DEFINED": "1",
+        "LOCALLY_DEFINED_SECRET": "@my-secret"
     },
     "build": {
         "env": {
-            "LOCALLY_DEFINED_BUILD": "1"
+            "LOCALLY_DEFINED_BUILD": "1",
+            "LOCALLY_DEFINED_BUILD_SECRET": "@my-secret-build"
         }
     }
 }
